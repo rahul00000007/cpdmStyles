@@ -1,0 +1,382 @@
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T08:57:57.507Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Iterative',\n" +
+    '  styleOrder: 1,\n' +
+    '  _id: new ObjectId("627a2cf94c592ce50649c323"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:14:33.787Z'
+}
+{
+  message: 'Employee were not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:15:47.486Z'
+}
+{
+  message: 'Employee were not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:17:34.056Z'
+}
+{
+  message: 'Employee were not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:17:57.740Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:25:12.933Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:25:45.393Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:26:58.935Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:27:28.808Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:28:47.574Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:29:03.206Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:29:23.753Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:31:02.360Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:31:22.079Z'
+}
+{
+  message: 'Style details not addedTypeError',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:32:01.971Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Iterative',\n" +
+    '  styleOrder: 1,\n' +
+    '  _id: new ObjectId("627a3161ce4b0edcf1d1f797"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:33:21.916Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 2,\n' +
+    '  _id: new ObjectId("627a31ddce4b0edcf1d1f799"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:35:25.472Z'
+}
+{
+  message: 'Style Details fetched for style name Iterative',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:43:50.920Z'
+}
+{
+  message: 'Styles details not exsits for StyleName ds',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:44:32.277Z'
+}
+{
+  message: 'Style Details fetched for style name Iterative',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:45:39.479Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:52:57.438Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:57:59.034Z'
+}
+{
+  message: 'Style Details fetched for style name Iterative',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:57:59.131Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T09:58:21.057Z'
+}
+{
+  message: 'Styles details not exsits for StyleName cd',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T09:58:21.155Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:02:06.457Z'
+}
+{
+  message: 'Styles details not exsits for StyleName cd',
+  level: 'error',
+  label: 'test label',
+  timestamp: '2022-05-10T10:02:06.580Z'
+}
+{
+  message: 'Style Details Requested',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:02:51.824Z'
+}
+{
+  message: 'Style Details fetched for style name Iterative',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:02:51.925Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Continuous',\n" +
+    '  styleOrder: 5,\n' +
+    '  _id: new ObjectId("627a384bbcd80891821f013e"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:02:52.053Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:08:08.712Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:09:09.125Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:21:38.529Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:22:41.800Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:23:22.299Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:24:01.048Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:49:14.808Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:49:38.783Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Continuous5',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:49:52.454Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 1,\n' +
+    '  _id: new ObjectId("627a43a2eabae60bc13a9022"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:51:14.242Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 2,\n' +
+    '  _id: new ObjectId("627a43cceabae60bc13a9024"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:51:56.398Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 3,\n' +
+    '  _id: new ObjectId("627a43d2eabae60bc13a9026"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:52:02.973Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Gates1',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:52:18.345Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Gates3',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:52:39.619Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 3,\n' +
+    '  _id: new ObjectId("627a4544172648d313236abb"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:58:12.425Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 1,\n' +
+    '  _id: new ObjectId("627a4563172648d313236abd"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:58:43.787Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 2,\n' +
+    '  _id: new ObjectId("627a456a172648d313236abf"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:58:50.120Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 4,\n' +
+    '  _id: new ObjectId("627a456f172648d313236ac1"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T10:58:55.494Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 4,\n' +
+    '  _id: new ObjectId("627a46f5556fc134cc901f65"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T11:05:25.655Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 2,\n' +
+    '  _id: new ObjectId("627a4709556fc134cc901f67"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T11:05:45.536Z'
+}
+{
+  message: 'Style Details Added  {\n' +
+    "  styleName: 'Gates',\n" +
+    '  styleOrder: 3,\n' +
+    '  _id: new ObjectId("627a470d556fc134cc901f69"),\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T11:05:49.526Z'
+}
+{
+  message: 'Style Details deleted with style name and styleOrder Gates2',
+  level: 'info',
+  label: 'test label',
+  timestamp: '2022-05-10T11:06:11.211Z'
+}
