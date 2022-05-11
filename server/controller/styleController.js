@@ -80,31 +80,6 @@ const getStyleByName = async (req, res) => {
   }
 };
 
-const deleteStyles = async (req, res) => {
-  try {
-    const style = await Styles.findOne({
-      styleName: req.params.styleName,
-      styleOrder: req.params.styleOrder,
-    });
-    console.log(style.length);
-    style.isDeleted = true;
-    await style.delete();
-    res.json({
-      data: req.params.styleName,
-      message: "Style Deleted Successfully",
-    });
-    logger.info(
-      "Style Details deleted with style name and styleOrder " +
-        req.params.styleName +
-        req.params.styleOrder
-    );
-  } catch (err) {
-    res.json({
-      message: err,
-    });
-  }
-};
-
 const deleteStyle = (req, res) => {
   const query = {
     styleName: req.params.styleName,
@@ -124,12 +99,17 @@ const deleteStyle = (req, res) => {
               req.params.styleName +
               req.params.styleOrder
           );
+        } else {
+          res.json({
+            data: req.params.styleName,
+            message: "Style Not Found",
+          });
         }
       }
     );
   } catch (err) {
-    res.json({
-      message: err,
+    res.status(404).json({
+      message: err.message,
     });
   }
 };

@@ -1,0 +1,203 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a simple example NodeJS API project to demonstrate Swagger Documentation",
+    "version": "1.0.0",
+    "title": "Tasks API",
+    "contact": {
+      "email": "abc@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "schemes": ["http"],
+  "host": "localhost:3000",
+  "basePath": "",
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Get all the styles",
+        "description": "Get all the styles",
+        "produces": ["application/json"],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/styles"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    },
+    "/newStyle": {
+      "post": {
+        "summary": "Save the Style",
+        "description": "Save the Style",
+        "produces": ["application/json"],
+        "consumes": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Style object",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "task": {
+                  "type": "object",
+                  "$ref": "#/definitions/styles"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/styles"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    },
+    "/style/{styleName}": {
+      "get": {
+        "summary": "Get  the styles based on style name",
+        "description": "Get  the styles based on style name",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "styleName",
+            "in": "path",
+            "description": "styles hat needs to be displayed",
+            "required": true,
+            "type": "string",
+            "properties": {
+              "task": {
+                "type": "object",
+                "$ref": "#/definitions/styles"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/styles"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    },
+    "/deleteStyle/{styleName}/{styleOrder}": {
+      "delete": {
+        "summary": "Delete the styles based on style name and style order number",
+        "description": "Delete  the styles based on style name and style order",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "styleName",
+            "in": "path",
+            "description": "style hat needs to be deleted",
+            "required": true,
+            "type": "string",
+            "properties": {
+              "task": {
+                "type": "object",
+                "$ref": "#/definitions/styles"
+              }
+            }
+          },
+          {
+            "name": "styleOrder",
+            "in": "path",
+            "description": "order number of style hat needs to be deleted",
+            "required": true,
+            "type": "integer",
+            "properties": {
+              "task": {
+                "type": "object",
+                "$ref": "#/definitions/styles"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/styles"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid status value",
+            "schema": {
+              "$ref": "#/definitions/InvalidResponse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "styles": {
+      "type": "object",
+      "properties": {
+        "styleName": {
+          "type": "string"
+        },
+        "styleOrder": {
+          "type": "integer"
+        }
+      }
+    },
+
+    "InvalidResponse": {
+      "type": "object",
+      "properties": {
+        "statusCode": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
